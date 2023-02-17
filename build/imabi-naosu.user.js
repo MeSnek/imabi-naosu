@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Imabi Naosu
 // @namespace    https://github.com/MeSnek/imabi-naosu
-// @version      0.21
+// @version      0.3
 // @update       https://github.com/MeSnek/imabi-naosu/raw/master/build/imabi-naosu.user.js
 // @description  centers the text on Imabi.net because it hurts my neck.
 // @author       Sneku
