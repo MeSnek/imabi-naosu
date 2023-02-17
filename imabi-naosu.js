@@ -24,4 +24,5 @@
     var width_elem = document.querySelector(".wrap-main");
 
     width_elem.style.width = "800px";
+    //tesingtonerino
 })();
