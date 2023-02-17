@@ -3,7 +3,7 @@ name: Copy and rename file
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
