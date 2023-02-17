@@ -1,13 +1,12 @@
 // ==UserScript==
-// @name         Centerize Imabi
-// @namespace    https://github.com/MeSnek
+// @name         Imabi Naosu
+// @namespace    https://github.com/MeSnek/imabi-naosu
 // @version      0.2
 // @description  centers the text on Imabi.net because it hurts my neck.
 // @author       Sneku
 // @match        http*://www.imabi.net/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=imabi.net
 // @grant        none
-// @source
 
 // ==/UserScript==
 
