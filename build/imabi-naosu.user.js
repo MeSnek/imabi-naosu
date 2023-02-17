@@ -18,11 +18,11 @@
     var widthElem = document.querySelector(".wrap-main");
 
     changePosition(positionElem);
-    changeWidth(widthElem);
+    changeWidth(width_elem)
 
     //changes the actual width of the box to let more text sit in it so it doesnt look like a mobile thing
     function changeWidth(elem) {
-        widthElem.style.width = "800px";
+        width_elem.style.width = "800px";
     }
     //changes the position of the box
     function changePosition(elem) {
