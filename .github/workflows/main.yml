@@ -1,0 +1,14 @@
+name: Copy and rename file
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Copy file
+      run: cp imabi-naosu.js build/imabi-naosu.users.js
