@@ -14,15 +14,19 @@
 (function() {
     'use strict';
 
-    //changes the position of the box
-    var elem = document.querySelector(".wrap");
+    var positionElem = document.querySelector(".wrap");
+    var widthElem = document.querySelector(".wrap-main");
 
-    elem.style.margin = "0px";
-    elem.style.width = "1425px";
+    changePosition(positionElem);
+    changeWidth(widthElem);
 
     //changes the actual width of the box to let more text sit in it so it doesnt look like a mobile thing
-    var width_elem = document.querySelector(".wrap-main");
-
-    width_elem.style.width = "800px";
+    function changeWidth(elem) {
+        widthElem.style.width = "800px";
+    }
+    //changes the position of the box
+    function changePosition(elem) {
+        positionElem.style.margin = "0px";
+        positionElem.style.width = "1425px";
+    }
 })();
-//testington
