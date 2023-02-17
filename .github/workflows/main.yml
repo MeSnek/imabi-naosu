@@ -11,4 +11,5 @@ jobs:
 
     steps:
     - name: Copy file
+      run: ls 
       run: cp imabi-naosu.js build/imabi-naosu.users.js
