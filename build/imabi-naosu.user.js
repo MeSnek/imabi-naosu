@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Centerize Imabi
 // @namespace    https://github.com/MeSnek
-// @version      0.1
+// @version      0.2
 // @description  centers the text on Imabi.net because it hurts my neck.
 // @author       Sneku
 // @match        http*://www.imabi.net/*
