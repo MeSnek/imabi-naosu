@@ -16,9 +16,11 @@
 
     var positionElem = document.querySelector(".wrap");
     var widthElem = document.querySelector(".wrap-main");
+    var membersElem = document.querySelector("#\35 f52ad7fe4b05373b339bb2d");
 
     changePosition(positionElem);
-    changeWidth(widthElem)
+    changeWidth(widthElem);
+    addDiv(membersElem);
 
     //changes the actual width of the box to let more text sit in it so it doesnt look like a mobile thing
     function changeWidth(elem) {
@@ -28,5 +30,8 @@
     function changePosition(elem) {
         elem.style.margin = "0px";
         elem.style.width = "1425px";
+    }
+    function addDiv(elem) {
+        div = elem.createElement("div");
     }
 })();
